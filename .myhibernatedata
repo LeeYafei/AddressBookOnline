@@ -1,0 +1,20 @@
+#MyEclipse Hibernate Properties
+#Wed Mar 22 09:08:04 CST 2017
+genBasicCompId=false
+sessionFactoryName=
+profile=
+daoSFId=
+jndiPath=
+detectM2M=false
+reStrategyClass=
+detectO2O=false
+springDaoFile=
+useJavaTypes=true
+keyGenerator=
+genVersionTag=false
+sessionFactoryId=sessionFactory
+basePersistenceClass=
+genAnnotations=false
+reSettingsFile=/AddressBookOnline/hibernate.reveng.xml
+configFile=/AddressBookOnline/src/applicationContext.xml
+createConfigFile=true
