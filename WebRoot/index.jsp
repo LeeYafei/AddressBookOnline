@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+﻿<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%@ taglib prefix="s" uri="/struts-tags"%>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
@@ -10,7 +10,9 @@
    			</tr>
    			<tr>
    				<td>
-   				查找联系人：<input name="con.cname"/><input type="submit" value="查找"/><s:a href="add.jsp">添加联系人</s:a>
+   				查找联系人：<input name="con.cname"/>
+				<input type="submit" value="查找"/>
+				<s:a href="add.jsp">添加联系人</s:a>
    				</td>
    			</tr>
    		</s:form>
@@ -31,7 +33,8 @@
 	   					bgcolor="<s:property value="%{#c.index%2==0?'#c9cdd2':'#e7eaee'}"/>">
 	   				
 	   				<td><s:property value="id"/></td>
-	   				<td><a href="findOne?con.id=<s:property value="id"/>"><s:property value="cname"/></a></td>
+	   				<td><a href="findOne?con.id=<s:property value="id"/>">
+					<s:property value="cname"/></a></td>
 	   				<td><s:property value="moble"/></td>
 	   				<td><s:property value="qq"/></td>
 	   				<td><s:property value="email"/></td>
